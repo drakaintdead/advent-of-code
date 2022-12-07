@@ -16,4 +16,4 @@ for i in range(len(splitData)):
     addedList.append(sum(splitData[i]))
     
 topThree = sorted(addedList, reverse=True)[:3]
-print("Sum of top 3: " + str(sum(topThree))) 
+print("Sum of top 3: " + str(sum(topThree)))
